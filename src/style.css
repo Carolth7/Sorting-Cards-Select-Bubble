@@ -1,1 +1,177 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+
+body {
+  background-color: darkgreen;
+  background-color: #0c6339;
+  margin: 2rem;
+}
+
+.background {
+  background-color: 136016;
+  height: 100 vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poker-card {
+  background-color: white;
+  width: 9rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 4rem;
+  color: red;
+  padding: 0.1rem;
+  margin: 1rem;
+}
+
+.card-value {
+  align-self: center;
+}
+
+.last-suit {
+  align-self: flex-end;
+}
+
+.black {
+  color: black;
+}
+.red {
+  color: red;
+}
+
+.align-start {
+  align-self: flex-start;
+  margin-top: -0.5rem;
+  padding-bottom: 1.25rem;
+  margin-left: 0.3rem;
+  font-size: 2.5rem;
+}
+
+.align-end {
+  align-self: flex-end;
+  margin-bottom: -0.5rem;
+  padding-bottom: 1.25rem;
+  margin-left: -0.3rem;
+  font-size: 2.5rem;
+}
+
+.invert {
+  transform: rotate(0.5turn);
+}
+
+#mySection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#mySection2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+card-value {
+  font-size: 4rem;
+}
+
+input {
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+#draw {
+  font-weight: bold;
+  width: 23rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  color: green;
+  font-weight: bold;
+}
+
+#bubble {
+  background: #b92633;
+  font-weight: bold;
+  width: 23rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  color: white;
+}
+
+#selection {
+  background: gray;
+  font-weight: bold;
+  width: 23rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  color: white;
+}
+
+#draw:hover {
+  background: #6fa58af0;
+}
+
+#bubble:hover {
+  background: #9b1111;
+}
+
+#selection:hover {
+  background: #8080808a;
+}
+
+input {
+  background: #00000012;
+  font-size: 1rem;
+  color: yellow;
+  width: 23rem;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: rgba(255, 255, 0, 0.671);
+}
+
+button {
+  border-radius: 0.5rem;
+}
+
+.align-items-start {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonsBox {
+  display: flex;
+  flex-direction: column;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+
+/* .drawBubbleSelection {
+} */
+
+.slabo:after,
+.slabo:before {
+  content: "♦";
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
